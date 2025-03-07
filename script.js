@@ -4,7 +4,7 @@
 
 var user = "Alvaro"
 
-var email = "joao@email.com"
+var email = "joao@email.com" 
 
 {
 
@@ -117,7 +117,7 @@ console.log (" Uma sring com acento grave permite  escrever multiplas linhas " )
  
 */
 
-// Template literals (template strings , intterpolação de string )
+/* Template literals (template strings , intterpolação de string )
 let usarname = "rodrigo "
 let email = "rodrigo@gamil.com "
 
@@ -133,4 +133,22 @@ console.log (message)
 //template literals 
 
 console.log (`a, ${username}. Voce conectou com o e-mail
-    ${email }. `)
+    ${email }. `)   */
+
+
+//number
+    console.log(typeof 5)
+
+//Inteiro positivo
+    console.log(5)
+//Inteiro negativo
+    console.log(- 5)
+//Numero reaus ou float
+    console.log(7.5)
+
+    console.log(12.5 / 10 )
+
+
+
+
+
