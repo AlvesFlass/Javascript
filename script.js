@@ -290,7 +290,7 @@ else if (hour > 12 && hour <= 18){
 else{
   console.log("bOA NOITE")
 }
-  */
+ 
 
 let option = 1
 
@@ -303,3 +303,60 @@ switch(option){
       default:
         console.log("Opção Invalida ")
 }
+
+
+
+Tratamento de Exceções
+
+uma exceção e uma condição ou evento imprevisto que ocorre durante o uso da aplicação 
+
+        /*
+        let age = 19
+        console.log(age => 20)
+        
+      let hour = 12
+        if(hour<=12){
+          console.log("Bomdia")
+        }
+    
+      console.log(result)
+      try {
+        // Tenta executar algo
+      }
+      catch (Erro){
+       } finally  {
+        console.log("fim")          //Captura o erro para tratar
+      }
+  
+     // função e um bloco de codigo que realiza uma tarefa especifica ou ccalcula um valor 
+
+     function message (){
+      console.log("Ola e bom ter voce aqui")
+     }
+     message() 
+     message() 
+     message() 
+     */
+
+  // parametro e a variavel que a função cvai receber 
+  //passando o parametro username.
+  function message (username) {
+    console.log("Ola",username )
+  }
+
+  message("Rodrigo")
+  message("Ana")
+
+  function sum( a, b){
+    console.log(a+b)
+  }
+
+  sum(10,20)
+  sum(7,3)
+
+   function joinText(text1, text2, text3){
+    console.log(text1, text2, text3)
+   }
+
+   joinText("Rodrigo", "alves", "santana")
+   joinText("alves","rodrigo","santana")

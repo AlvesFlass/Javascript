@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Mapa de Imagem - Frutas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
+    <h1>Mapa de Imagem - Frutas</h1>
+    <div class="container">
+        <img src="https://img.freepik.com/vetores-gratis/coleta-de-frutas-planas-organicas_23-2148950159.jpg" usemap="#fruitmap" alt="Imagem de frutas">
+        <map name="fruitmap">
+            <!-- Cada área de fruta com coordenadas corrigidas -->
+            <area shape="rect" coords="50,250,150,350" href="https://translate.google.com/?sl=pt&tl=en&text=Banana&op=translate" target="_blank" alt="Banana (English: Banana)">
+            <area shape="rect" coords="200,100,300,200" href="https://translate.google.com/?sl=pt&tl=en&text=Maçã&op=translate" target="_blank" alt="Maçã (English: Apple)">
+            <area shape="rect" coords="350,220,450,320" href="https://translate.google.com/?sl=pt&tl=en&text=Uva&op=translate" target="_blank" alt="Uva (English: Grape)">
+            <area shape="rect" coords="500,150,600,250" href="https://translate.google.com/?sl=pt&tl=en&text=Laranja&op=translate" target="_blank" alt="Laranja (English: Orange)">
+            <area shape="rect" coords="650,180,750,280" href="https://translate.google.com/?sl=pt&tl=en&text=Morango&op=translate" target="_blank" alt="Morango (English: Strawberry)">
+            <area shape="rect" coords="800,200,900,300" href="https://translate.google.com/?sl=pt&tl=en&text=Abacaxi&op=translate" target="_blank" alt="Abacaxi (English: Pineapple)">
+        </map>
+    </div>
+
     
 </body>
 </html>
